@@ -1,1 +1,1 @@
-export * from "./src/read-more.directive";
+export * from "./src/text-show-less.component";

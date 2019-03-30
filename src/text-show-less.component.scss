@@ -1,0 +1,32 @@
+.custom-end{
+    color: #007bff;
+    text-decoration: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+div{
+    line-height: 1.3; 
+    font-size: 13px;
+}
+.custom-font-size{
+    font-size: 12px;
+}
+.truncate{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float:left;
+    word-wrap: break-word;
+    width:300px;
+}
+.truncate.truncated{
+    white-space: initial;
+    }
+
+.form-control:focus{
+    border-color:transparent;
+}
+

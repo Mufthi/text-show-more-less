@@ -1,0 +1,29 @@
+<div class="text-show-less" style="text-align: justify;">
+  <div *ngIf="maxLength < data?.length">  
+    <div *ngIf="maxLengthCloned < data?.length"  >
+      <!-- {{maxLengthCloned}} - {{data?.length}} - {{maxLength}} -->
+      {{ (data  | slice: 0:maxLength) + '...' }} 
+      <!-- <div class="custom-end d-inline-block custom-font-size" style="position: relative;" (click)="swap('show more')">
+        {{showMoreText}}
+      </div> -->
+    </div>
+    <!-- <div *ngIf="maxLengthCloned >= data?.length">
+    
+        {{ data  }} 
+        <div *ngIf="maxLengthCloned >= data?.length" style="position: relative;" class="custom-end d-inline-block custom-font-size" (click)="swap('show less')">
+       {{showLessText}}</div> 
+    </div> -->
+  </div>
+  <div *ngIf="maxLength >= data?.length"  >{{ data }} 
+  </div>
+</div>
+<!-- <div class="truncate" [ngClass]="{'truncated':readMore}">
+{{data}}
+<div *ngIf="!readMore" class="custom-end d-inline-block custom-font-size" (click)="swap(true)">
+    {{showMoreText}}
+  </div>
+  <div *ngIf="readMore" class="custom-end d-inline-block custom-font-size" (click)="swap(false)">
+      {{showLessText}}
+  </div>
+</div> -->
+
