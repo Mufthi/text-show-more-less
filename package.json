@@ -18,8 +18,8 @@
     "more",
     "text-show-more-less"
   ],
-  "author": "Oneia",
-  "license": "ISC",
+  "author": "Mufthi",
+  "license": "MIT",
   "dependencies": {
     "@angular/core": "^4.0.2"
   },
