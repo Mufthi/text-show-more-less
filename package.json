@@ -1,0 +1,32 @@
+{
+  "name": "ngx-read-more",
+  "version": "1.0.0",
+  "description": "toogle text more\\less",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+   "keywords": [
+    "angular2",
+    "ngx",
+    "ng2",
+    "toogle",
+    "text",
+    "less",
+    "read",
+    "more"
+  ],
+  "author": "Oneia",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/core": "^4.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.2"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Oneia/read-more-angular2"
+  }
+}
