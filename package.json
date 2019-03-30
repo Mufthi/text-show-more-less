@@ -1,7 +1,7 @@
 {
-  "name": "ngx-read-more",
+  "name": "text-show-more-less",
   "version": "1.0.0",
-  "description": "toogle text more\\less",
+  "description": "text-show-more-less text more\\less",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,13 +9,14 @@
   },
    "keywords": [
     "angular2",
-    "ngx",
-    "ng2",
-    "toogle",
+    "text",
+    "show",
+    "more-less",
     "text",
     "less",
     "read",
-    "more"
+    "more",
+    "text-show-more-less"
   ],
   "author": "Oneia",
   "license": "ISC",
@@ -27,6 +28,6 @@
   },
    "repository": {
     "type": "git",
-    "url": "https://github.com/Oneia/read-more-angular2"
+    "url": "https://github.com/Mufthi/text-show-more-less"
   }
 }
