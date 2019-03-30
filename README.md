@@ -1,1 +1,1 @@
-text-show-more-less
+text-show-more-less angular component
